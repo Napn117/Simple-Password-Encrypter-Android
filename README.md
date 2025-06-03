@@ -68,7 +68,7 @@ This Android app allows users to securely store and manage passwords behind a us
 
 ---
 
-⚙️ Build & Run Instructions
+# ⚙️ Build & Run Instructions
 
 - Open the project in Android Studio
 - Run the app on a physical device or emulator with Android 10+ (API 29 or higher)
