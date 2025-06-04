@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
 
     <!-- Show Decrypted Passwords Button -->
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/toggleDecryptionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Show Decrypted Passwords"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        app:cornerRadius="16dp" />
 
     <!-- RecyclerView for displaying password entries -->
     <androidx.recyclerview.widget.RecyclerView
