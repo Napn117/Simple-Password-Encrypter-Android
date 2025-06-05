@@ -4,21 +4,19 @@ public class PasswordEntry {
     private int id;
     private String serviceName;
     private String username;
-    private String password;  // Holds the current view state (encrypted or decrypted)
-    private String originalEncryptedPassword; // Always holds the original encrypted password
+    private String password;
+    private boolean isEncrypted;
 
-    // Constructor
     public PasswordEntry(int id, String serviceName, String username, String encryptedPassword) {
         this.id = id;
         this.serviceName = serviceName;
         this.username = username;
-        this.originalEncryptedPassword = encryptedPassword;  // Set the original encrypted value initially
-        this.password = encryptedPassword;  // Start with the encrypted password
+        this.password = encryptedPassword;
+        this.isEncrypted = true;
     }
 
-    // Getters and Setters
     public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+    public void setId(Integer id){ this.id = id; }
 
     public String getServiceName() { return serviceName; }
     public void setServiceName(String serviceName) { this.serviceName = serviceName; }
@@ -29,8 +27,7 @@ public class PasswordEntry {
     public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
 
-    public String getOriginalEncryptedPassword() { return originalEncryptedPassword; }
-    public void setOriginalEncryptedPassword(String originalEncryptedPassword) {
-        this.originalEncryptedPassword = originalEncryptedPassword;
-    }
+    public boolean isEncrypted() { return isEncrypted; }
+    public void setEncrypted(boolean encrypted) { isEncrypted = encrypted; }
+
 }

@@ -37,7 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.biometric)
     implementation(libs.security.crypto)
-    testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
