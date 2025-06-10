@@ -8,10 +8,8 @@ It allows users to safely store, view, and manage passwords using robust AES-GCM
 ## 📱 Features
 
 - ✅ **AES-GCM encryption** for secure password storage
-- ✅ **Fingerprint authentication** using Android BiometricPrompt API
-- ✅ **Optional PIN setup** on first launch
-- ✅ **View, add, and delete** encrypted password entries
-- ✅ **Dark mode-friendly UI**
+- ✅ **PIN** on first launch
+- ✅ **View, add, edit, and delete** encrypted password entries
 - ✅ **Local storage only** — no cloud or internet access for maximum privacy
 
 ---
