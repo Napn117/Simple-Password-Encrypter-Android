@@ -8,7 +8,7 @@ It allows users to safely store, view, and manage passwords using robust AES-GCM
 ## 📱 Features
 
 - ✅ **AES-GCM encryption** for secure password storage
-- ✅ **PIN** on first launch
+- ✅ **Create PIN** on first launch
 - ✅ **View, add, edit, and delete** encrypted password entries
 - ✅ **Local storage only** — no cloud or internet access for maximum privacy
 
