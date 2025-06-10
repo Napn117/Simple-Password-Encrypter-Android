@@ -26,6 +26,8 @@ It allows users to safely store, view, and manage passwords using robust AES-GCM
 
 ## ▶️ Build & Run
 
--Clone or Download the repo 
--Open inside Android Studio 
--Build APK or click run 
+- Clone or Download the repo 
+- Open inside Android Studio 
+- Build APK or click run 
+
+---
