@@ -8,7 +8,7 @@ It allows users to safely store, view, and manage passwords using robust AES-GCM
 ## 📱 Features
 
 - ✅ **AES-GCM encryption** for secure password storage
-- ✅ **Create PIN** on first launch
+- ✅ **Create PIN** on first launch for all future sessions
 - ✅ **View, add, edit, and delete** encrypted password entries
 - ✅ **Local storage only** — no cloud or internet access for maximum privacy
 
@@ -20,7 +20,7 @@ It allows users to safely store, view, and manage passwords using robust AES-GCM
 - A new **random IV** is generated for each encryption operation.
 - Data is encrypted using a **256-bit AES key** (stored securely via Android Keystore).
 - Encrypted data includes an **authentication tag** to ensure integrity.
-- Biometric or PIN access is required to decrypt data.
+- PIN access is required to decrypt data.
 
 ---
 
