@@ -63,8 +63,8 @@ public class PinActivation extends AppCompatActivity {
                     EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
             );
 
-            String salt = generateSalt(); // new
-            String hashedPin = hashPin(newPin, salt); // new
+            String salt = generateSalt();
+            String hashedPin = hashPin(newPin, salt);
 
             encryptedPrefs.edit()
                     .putString("user_salt", salt)
